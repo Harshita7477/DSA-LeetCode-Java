@@ -11,7 +11,7 @@ Space Complexity: O(n)
 
 import java.util.HashSet;
 
-class ContainsDuplicate {
+class ContainsDuplicate_217 {
 
     public boolean containsDuplicate(int[] nums) {
 
@@ -29,7 +29,7 @@ class ContainsDuplicate {
 
     public static void main(String[] args) {
 
-        ContainsDuplicate obj = new ContainsDuplicate();
+        ContainsDuplicate_217 obj = new ContainsDuplicate_217();
 
         int[] nums = {1, 2, 3, 4, 1};
 
