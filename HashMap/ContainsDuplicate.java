@@ -1,3 +1,14 @@
+/*
+LeetCode 217 - Contains Duplicate
+
+Approach:
+- Use a HashSet to store visited elements.
+- If an element is already present, return true.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.HashSet;
 
 class ContainsDuplicate {
