@@ -1,3 +1,16 @@
+/*
+LeetCode 387 - First Unique Character in a String
+
+Approach:
+- Count the frequency of each character using a HashMap.
+- Traverse the string again and return the index of the first character
+  whose frequency is 1.
+- If no unique character exists, return -1.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 import java.util.HashMap;
 
 public class firstuniqueCharacter_387{
