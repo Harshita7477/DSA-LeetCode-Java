@@ -1,3 +1,16 @@
+/*
+LeetCode 242 - Valid Anagram
+
+Approach:
+- If the lengths of both strings are different, return false.
+- Count the frequency of each character in the first string using a HashMap.
+- Traverse the second string and decrease the frequency of each character.
+- If any character is missing or its frequency becomes negative, return false.
+- If all frequencies are matched, return true.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
 import java.util.HashMap;
 
 public class ValidAnagram_242 {
