@@ -9,6 +9,7 @@ This folder contains my Java solutions for LeetCode problems that use **HashMap*
 | 217 | Contains Duplicate | Easy | O(n) | O(n) | ✅ |
 | 001 | Two Sum            | Easy | O(n) | O(n) | ✅ |
 | 387 | [First Unique Character in a String](FirstUniqueCharacter_387.java) | Easy | O(n) | O(n) | ✅ |
+| 169 | [Majority Element](MajorityElement_169.java) | Easy | O(n) | O(n) | ✅ |
 
 ---
 

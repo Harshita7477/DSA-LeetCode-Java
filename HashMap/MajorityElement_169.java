@@ -1,3 +1,15 @@
+/*
+LeetCode 169 - Majority Element
+
+Approach:
+- Count the frequency of each element using a HashMap.
+- Traverse the array and update the frequency of every element.
+- If the frequency of any element becomes greater than n / 2,
+  return that element immediately.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
 import java.util.HashMap;
 
 public class MajorityElement_169 {
