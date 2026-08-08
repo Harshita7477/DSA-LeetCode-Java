@@ -9,7 +9,9 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 */
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 class ContainsDuplicate_217 {
 
@@ -36,3 +38,5 @@ class ContainsDuplicate_217 {
         System.out.println(obj.containsDuplicate(nums));
     }
 }
+
+
